@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ostrich 2</title>
+  </head>
+  <body>
+    <canvas id="can"></canvas>
+    <button id="startButton">start</button>
+    <img src="./media/images/ostrich.png" id="ostrich" /><img />
+    <img src="./media/images/missile_left.png" id="missilel" /><img />
+    <img src="./media/images/missile_right.png" id="missiler" /><img />
+    <img src="./media/images/youlostostrich.png" id="youlostostrich" /><img />
+    <audio id="wingflap">
+      <source src="./media/audio/wingflap.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="missilehit">
+      <source src="./media/audio/missilesound.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="sadtrombone">
+      <source src="./media/audio/sadtrombone.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="whistle">
+      <source src="./media/audio/whistle.mp3" type="audio/mpeg" />
+    </audio>
+    <script src="player.js"></script>
+    <script src="missile.js"></script>
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+    <script src="app.js"></script>
+    <script>
+      let app = new App();
+    </script>
+  </body>
+</html>
